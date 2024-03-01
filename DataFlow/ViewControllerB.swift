@@ -12,11 +12,11 @@ class ViewControllerB: UIViewController {
     var b: String = "punit"
     var data: String?
     
-    @IBOutlet weak var dataLabel: UILabel!
+    @IBOutlet weak var dataLabelB: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataLabel.text = data
+        dataLabelB.text = data
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
