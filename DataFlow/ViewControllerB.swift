@@ -9,6 +9,10 @@ import UIKit
 
 class ViewControllerB: UIViewController {
 
+    var b: String = "punit"
+    
+    @IBOutlet weak var dataLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,3 +31,4 @@ class ViewControllerB: UIViewController {
     */
 
 }
+

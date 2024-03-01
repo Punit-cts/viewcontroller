@@ -9,6 +9,7 @@ import UIKit
 
 class ViewControllerd: UIViewController {
 
+    var d:String = "Thakali"
     override func viewDidLoad() {
         super.viewDidLoad()
 
