@@ -17,7 +17,7 @@ class ViewControllerD: UIViewController {
 
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showVCB" {
+        if segue.identifier == "showVCA" {
             let destinationVC = segue.destination as! ViewControllerA
             destinationVC.data = data
         }
